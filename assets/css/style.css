@@ -8,7 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
-header {
+/* Changed .header to header to match index.html */
+header {  
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -85,23 +86,23 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* combined all the articles because they have the same styling */ 
 .benefit article {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* combined all h3 because they have the same styling */
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* combined all imgs because they have the same styling */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* combined all articles because they have the same styling */
 .content article {
     margin-bottom: 20px;
     padding: 50px;
@@ -110,11 +111,11 @@ h3 {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* combined all imgs because they have the same styling */
 .content img {
     max-height: 200px;
 }
-
+/* combined all h2 because they have the same styling */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -126,7 +127,7 @@ h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-.footer h2 {
+/* Renamed to h4 to make it easier to seperate from other headers */
+.footer h4 {
     font-size: 20px;
 }
